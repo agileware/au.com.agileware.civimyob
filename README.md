@@ -3,7 +3,7 @@
 CiviCRM Extension integrating [CiviCRM](https://civicrm.org) with
 [MYOB AccountRight](https://www.myob.com/au/accounting-software/accountright).
 CiviCRM Contacts and Contributions are pushed to MYOB AccountRight,
-QuickBooks Invoices are pulled into CiviCRM, updating the Contribution status.
+linked MYOB Invoices are pulled into CiviCRM, updating the Contribution status.
 Synchronise all things!
 
 Integration of the two systems saves you time by not having to do repetitive
