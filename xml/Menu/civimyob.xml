@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/myob/settings</path>
+    <page_callback>CRM_Civimyob_Form_Settings</page_callback>
+    <title>MYOB Settings</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/myob/fetchcompanies</path>
+    <page_callback>CRM_Civimyob_Page_FetchCompanies</page_callback>
+    <title>FetchCompanies</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/myob/fetchtaxcodes</path>
+    <page_callback>CRM_Civimyob_Page_FetchTaxCodes</page_callback>
+    <title>FetchTaxCodes</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/myob/fetchaccounts</path>
+    <page_callback>CRM_Civimyob_Page_FetchAccounts</page_callback>
+    <title>FetchTaxCodes</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/ajax/civimyob/sync/contact/errors</path>
+    <page_callback>CRM_Civimyob_Page_AJAX::contactSyncErrors</page_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/ajax/civimyob/sync/invoice/errors</path>
+    <page_callback>CRM_Civimyob_Page_AJAX::invoiceSyncErrors</page_callback>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
